@@ -10,14 +10,23 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~12.2.0-rc",
+    "@angular/animations": "^12.2.2",
+    "@angular/cdk": "^12.2.2",
     "@angular/common": "~12.2.0-rc",
     "@angular/compiler": "~12.2.0-rc",
     "@angular/core": "~12.2.0-rc",
+    "@angular/fire": "^6.1.5",
     "@angular/forms": "~12.2.0-rc",
+    "@angular/material": "^12.2.2",
     "@angular/platform-browser": "~12.2.0-rc",
     "@angular/platform-browser-dynamic": "~12.2.0-rc",
     "@angular/router": "~12.2.0-rc",
+    "@ckeditor/ckeditor5-angular": "^2.0.2",
+    "@ckeditor/ckeditor5-build-classic": "^29.1.0",
+    "bootstrap": "^5.1.0",
+    "firebase": "^8.10.0",
+    "hammerjs": "^2.0.8",
+    "ngx-pagination": "^5.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -34,6 +43,6 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.3.5"
+    "typescript": "^4.2.3"
   }
 }
